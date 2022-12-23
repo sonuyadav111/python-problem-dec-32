@@ -1,0 +1,10 @@
+lis = [34, 54, 67, 89, 100, 43, 94]
+del lis[2  :  5]
+print ("List elements after deleting are  : " ,end=" ")
+for i in range(0, len(lis)):
+    print(lis[i], end="  ")
+print("\r")
+lis.pop(2)
+print ("List elements after adding are : ",  end="")
+for i in range(0, len(lis)):
+    print(lis[1], end=" ")
